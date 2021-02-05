@@ -1,16 +1,5 @@
 # Saagie Community Technologies
 
-
-[![GitHub release](https://img.shields.io/github/release/saagie/technologies-community?style=for-the-badge)][releases] 
-[![GitHub release date](https://img.shields.io/github/release-date/saagie/technologies-community?style=for-the-badge&color=blue)][releases]  
-
-
-[![Issues](https://img.shields.io/github/issues-raw/saagie/technologies-community?style=for-the-badge&color=blue)][issues]
-
-[![License](https://img.shields.io/github/license/saagie/technologies-community?style=for-the-badge&color=blue)][license]
-
-[![Contributors](https://img.shields.io/github/contributors/saagie/technologies-community?style=for-the-badge&color=blue)][contributors]
-
 [releases]: https://github.com/saagie/technologies-community/releases
 [contributors]: https://github.com/saagie/technologies-community/graphs/contributors
 [issues]: https://github.com/saagie/technologies-community/issues
