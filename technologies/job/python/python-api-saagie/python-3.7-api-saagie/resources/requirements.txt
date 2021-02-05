@@ -1,1 +1,0 @@
-git+http://git@github.com/saagie/api-saagie.git
