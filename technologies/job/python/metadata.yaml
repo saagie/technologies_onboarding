@@ -1,0 +1,55 @@
+version: "v1"
+type: JOB
+id: python 
+label: Python-api
+available: true
+icon: python
+contexts:
+  - id: 3.7-api-saagie
+    label: 3.7 api-saagie
+    available: true
+    recommended: true
+    description: Python 3.7 with api-saagie installed (https://github.com/saagie/api-saagie)
+    trustLevel: experimental
+    job:
+      features:
+        - type: COMMAND_LINE
+          label: Command line
+          mandatory: true
+          comment: Linux shell command to launch the job.
+          defaultValue: python {file} arg1 arg2
+        - type: ARTIFACT
+          label: Package
+          mandatory: true
+          comment: "Compatible upload file : .py or .zip (with optional requirements.txt for pip install)"
+        - type: SCHEDULER
+          label: Scheduled
+          mandatory: true
+    dockerInfo:
+      image: gus75/python
+      baseTag: 3.7
+      version: api-saagie_v0.2
+  - id: 3.7-light
+    label: 3.7 light
+    available: true
+    recommended: true
+    description: Python 3.7 without any libs pre installed
+    trustLevel: experimental
+    job:
+      features:
+        - type: COMMAND_LINE
+          label: Command line
+          mandatory: true
+          comment: Linux shell command to launch the job.
+          defaultValue: python {file} arg1 arg2
+        - type: ARTIFACT
+          label: Package
+          mandatory: true
+          comment: "Compatible upload file : .py or .zip (with optional requirements.txt for pip install)"
+        - type: SCHEDULER
+          label: Scheduled
+          mandatory: true
+    dockerInfo:
+      image: saagie/python
+      baseTag: 3.7
+      version: 3.7-service-light
