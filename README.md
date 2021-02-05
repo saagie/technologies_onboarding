@@ -1,10 +1,6 @@
-# Saagie Community Technologies
+# Saagie Community Technologies (Onboarding certification)
 
-[releases]: https://github.com/saagie/technologies-community/releases
-[contributors]: https://github.com/saagie/technologies-community/graphs/contributors
-[issues]: https://github.com/saagie/technologies-community/issues
-[license]: https://github.com/saagie/technologies-community/blob/master/LICENSE
-
+Here is the official [Saagie Community Technologies](https://github.com/saagie/technologies-community) 
 
 This repository contains all community technologies you can use in Saagie. You can find in [this board](https://github.com/saagie/technologies-community/projects/1) all the technologies that we plan to implement. 
 
